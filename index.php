@@ -376,7 +376,7 @@
         <div class="row">
           <div class="col-1"></div>
           <div class="col-10">
-            <h3 class="title-a light fontGlobal">Algumas Informações</h3>
+            <h3 class="title-a display-7 text-center space-top light fontGlobal">Algumas Informações</h3>
             <br />
             <p class="subtitle-a light text-center">O valor da inscrição é individual e pode ser pago no boleto, cartão de crédito ou de débito.</p>
             <p class="subtitle-a light text-center">Crianças até 11 anos não pagam.</p>
