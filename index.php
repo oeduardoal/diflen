@@ -325,48 +325,66 @@
             $class = "registration-esgotado";
           }
           ?>
-          <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 <?php echo $class; ?>">
-            <div class="card-deck mb-3 text-center">
-              <div class="card mb-4 shadow-sm">
-                <div class="card-header">
-                  <h4 class="my-0 font-weight-normal"><?php echo $lote['name'] ?></h4>
-                </div>
-                <div class="card-body">
-                  <ul class="list-unstyled mt-3 mb-4">
-                    <li><?php echo $lote['description'] ?></li>
-                    <li>De <?php echo $lote['from'] ?> até <?php echo $lote['to'] ?></li>
-                  </ul>
-                  <h1 class="card-title pricing-card-title value">R$ <?php echo $lote['price'] ?></h1>
-                  <?php if ($comprar) : ?>
-                    <a href="<?php echo $lote['link'] ?>">
-                      <button class="button button-a button-big button-rouded my-4"><?php echo $lote['status'] ?></button>
-                    </a>
-                  <?php else : ?>
-                    <button class="button button-disable button-big button-rouded my-4"><?php echo $lote['status'] ?></button>
-                  <?php endif; ?>
+          <?php
+          if ($key == "24h") :
+            ?>
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-2 col-xl-2 <?php echo $class; ?>">
+              <?php
+            else :
+              ?>
+                <div class="col-sm-12 col-md-6 col-lg-2 col-xl-2 <?php echo $class; ?>">
+                <?php
+              endif;
+              ?>
+                <div class="card-deck mb-3 text-center">
+                  <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                      <h4 class="my-0 font-weight-normal"><?php echo $lote['name'] ?></h4>
+                    </div>
+                    <div class="card-body">
+                      <ul class="list-unstyled mt-3 mb-4">
+                        <li><?php echo $lote['description'] ?></li>
+                        <li>De <?php echo $lote['from'] ?> até <?php echo $lote['to'] ?></li>
+                      </ul>
+                      <h1 class="card-title pricing-card-title value">R$ <?php echo $lote['price'] ?></h1>
+                      <?php if ($comprar) : ?>
+                        <a href="<?php echo $lote['link'] ?>">
+                          <button class="button button-a button-big button-rouded my-4"><?php echo $lote['status'] ?></button>
+                        </a>
+                      <?php else : ?>
+                        <button class="button button-disable button-big button-rouded my-4"><?php echo $lote['status'] ?></button>
+                      <?php endif; ?>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-        <?php
-      endforeach;
-      ?>
-      </div>
-      <!--/ Table Price End /-->
-      <div class="row">
-        <div class="col-1"></div>
-        <div class="col-10">
-          <h4 class="display-7 text-center space-top light fontGlobal">Algumas Informações</h4>
-          <br />
-          <p class="subtitle-a light text-center">O valor da inscrição é individual e pode ser pago no boleto, cartão de crédito ou de débito.</p>
-          <p class="subtitle-a light text-center">Crianças até 11 anos não pagam.</p>
-          <p class="subtitle-a light text-center">As vagas são limitadas.</p>
-          <p class="subtitle-a light text-center">Não inclui hospedagem e transporte. As inscrições encerram no dia 10/Novembro.</p>
-          <p class="subtitle-a light text-center">Política de reembolso e cancelamento: somente até 7 dias antes do evento será devolvido o valor integral pago.</p>
+              <?php
+              if ($key == "24h") :
+                ?>
+              </div>
+            <?php
+          endif;
+          ?>
+          <?php
+        endforeach;
+        ?>
         </div>
-        <div class="col-1"></div>
+        <!--/ Table Price End /-->
+        <div class="row">
+          <div class="col-1"></div>
+          <div class="col-10">
+            <h4 class="display-7 text-center space-top light fontGlobal">Algumas Informações</h4>
+            <br />
+            <p class="subtitle-a light text-center">O valor da inscrição é individual e pode ser pago no boleto, cartão de crédito ou de débito.</p>
+            <p class="subtitle-a light text-center">Crianças até 11 anos não pagam.</p>
+            <p class="subtitle-a light text-center">As vagas são limitadas.</p>
+            <p class="subtitle-a light text-center">Não inclui hospedagem e transporte. As inscrições encerram no dia 10/Novembro.</p>
+            <p class="subtitle-a light text-center">Política de reembolso e cancelamento: somente até 7 dias antes do evento será devolvido o valor integral pago.</p>
+          </div>
+          <div class="col-1"></div>
+        </div>
       </div>
-    </div>
   </section>
   <!--/ Section Subscriber End /-->
 
