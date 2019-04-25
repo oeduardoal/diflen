@@ -302,7 +302,7 @@
           <?php
           foreach ($registrations as $key => $lotes) :
             foreach ($lotes as $lote) :
-              $lote['status'] = "Comprar"
+              $lote['status'] = "Comprar";
               ?>
               <div class="card-deck mb-3 text-center">
                 <div class="card mb-4 shadow-sm">
