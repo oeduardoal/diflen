@@ -303,7 +303,7 @@
           foreach ($registrations as $key => $lote) :
             $lote['status'] = "Comprar";
             ?>
-            <div class="card-deck mb-3 text-center">
+            <div class="card-deck mb-2 text-center">
               <div class="card mb-4 shadow-sm">
                 <div class="card-header">
                   <h4 class="my-0 font-weight-normal"><?php echo $lote['nome'] ?></h4>
