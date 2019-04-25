@@ -317,9 +317,11 @@
             $comprar = true;
           } elseif ($hoje < $toD) {
             $lote['status'] = "Aguarde";
+            $lote['description'] = "Aguarde a data para o lote!";
             $class = "registration-aguarde";
           } else {
-            $lote['status'] = "Esgotado";
+            $lote['status'] = "Sold Out";
+            $lote['description'] = "Ingressos esgotados!";
             $class = "registration-esgotado";
           }
           ?>
