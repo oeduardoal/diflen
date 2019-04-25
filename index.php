@@ -242,7 +242,7 @@
   <?php
   $registrations = array(
     "24h" => array(
-      "name" => "Lote 24h",
+      "name" => "Lote especial 24h",
       "description" => "Use o cupom #24horas",
       "price" => "89,00",
       "from" => "05/06",
@@ -330,38 +330,40 @@
             ?>
             <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 <?php echo $class; ?>">
               <div class="row">
-              <?php
-            else :
-              ?>
-                <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 <?php echo $class; ?>">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 <?php echo $class; ?>">
                 <?php
-              endif;
-              ?>
-                <div class="card-deck mb-3 text-center">
-                  <div class="card mb-4 shadow-sm">
-                    <div class="card-header">
-                      <h4 class="my-0 font-weight-normal"><?php echo $lote['name'] ?></h4>
-                    </div>
-                    <div class="card-body">
-                      <ul class="list-unstyled mt-3 mb-4">
-                        <li><?php echo $lote['description'] ?></li>
-                        <li>De <?php echo $lote['from'] ?> até <?php echo $lote['to'] ?></li>
-                      </ul>
-                      <h1 class="card-title pricing-card-title value">R$ <?php echo $lote['price'] ?></h1>
-                      <?php if ($comprar) : ?>
-                        <a href="<?php echo $lote['link'] ?>">
-                          <button class="button button-a button-big button-rouded my-4"><?php echo $lote['status'] ?></button>
-                        </a>
-                      <?php else : ?>
-                        <button class="button button-disable button-big button-rouded my-4"><?php echo $lote['status'] ?></button>
-                      <?php endif; ?>
+              else :
+                ?>
+                  <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 <?php echo $class; ?>">
+                  <?php
+                endif;
+                ?>
+                  <div class="card-deck mb-3 text-center">
+                    <div class="card mb-4 shadow-sm">
+                      <div class="card-header">
+                        <h4 class="my-0 font-weight-normal"><?php echo $lote['name'] ?></h4>
+                      </div>
+                      <div class="card-body">
+                        <ul class="list-unstyled mt-3 mb-4">
+                          <li><?php echo $lote['description'] ?></li>
+                          <li>De <?php echo $lote['from'] ?> até <?php echo $lote['to'] ?></li>
+                        </ul>
+                        <h1 class="card-title pricing-card-title value">R$ <?php echo $lote['price'] ?></h1>
+                        <?php if ($comprar) : ?>
+                          <a href="<?php echo $lote['link'] ?>">
+                            <button class="button button-a button-big button-rouded my-4"><?php echo $lote['status'] ?></button>
+                          </a>
+                        <?php else : ?>
+                          <button class="button button-disable button-big button-rouded my-4"><?php echo $lote['status'] ?></button>
+                        <?php endif; ?>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <?php
-              if ($key == "24h") :
-                ?>
+                <?php
+                if ($key == "24h") :
+                  ?>
+                </div>
               </div>
             <?php
           endif;
