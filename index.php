@@ -301,6 +301,15 @@
         <?php
         foreach ($registrations as $key => $lote) :
           $lote['status'] = "Em breve";
+
+          $hoje = strtotime(date("Y-m-d H:i:s"));
+          $from = strtotime($lote['from'] . "/2019 00:00:00");
+          $to = strtotime($lote['to'] . "/2019 23:59:59");
+          if ($hoje >= $from && $hoje <= $to) {
+            echo "is between";
+          } else {
+            echo "NO GO!";
+          }
           ?>
           <?php
           if ($key == "24h") :
