@@ -309,9 +309,12 @@
           $fromD = strtotime("2019-" . $from[1] . "-" . $from[0] . " 00:00:00");
           $toD = strtotime("2019-" . $to[1] . "-" . $to[0] . " 23:59:59");
           $class = "registration-card";
+          $comprar = false;
+
           if ($hoje > $fromD && $hoje < $toD) {
             $lote['status'] = "Comprar";
             $class = "registration-comprar";
+            $comprar = true;
           } elseif ($hoje < $toD) {
             $lote['status'] = "Aguarde";
             $class = "registration-aguarde";
@@ -342,7 +345,13 @@
                       <li>De <?php echo $lote['from'] ?> até <?php echo $lote['to'] ?></li>
                     </ul>
                     <h1 class="card-title pricing-card-title value">R$ <?php echo $lote['price'] ?></h1>
-                    <button class="button button-disable button-big button-rouded my-4"><?php echo $lote['status'] ?></button>
+                    <?php if ($comprar) : ?>
+                      <a href="<?php echo $lote['link'] ?>">
+                        <button class="button button-a button-big button-rouded my-4"><?php echo $lote['status'] ?></button>
+                      </a>
+                    <?php else : ?>
+                      <button class="button button-disable button-big button-rouded my-4"><?php echo $lote['status'] ?></button>
+                    <?php endif; ?>
                   </div>
                 </div>
               </div>
