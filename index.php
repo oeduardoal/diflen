@@ -300,15 +300,19 @@
       <div class="row">
         <?php
         foreach ($registrations as $key => $lote) :
-          $lote['status'] = "Em breve";
 
           $hoje = strtotime(date("Y-m-d H:i:s"));
-          $from = strtotime($lote['from'] . "/2019 00:00:00");
-          $to = strtotime($lote['to'] . "/2019 23:59:59");
+          $hoje = strtotime("2019-05-07 10:00:00");
+          $from = explode('/', $lote['from']);
+          $to = explode('/', $lote['to']);
+
+          $from = strtotime("2019-" . $from[1] . "-" . $from[0] . " 00:00:00");
+          $to = strtotime("2019-" . $to[1] . "-" . $to[0] . " 00:00:00");
+
           if ($hoje >= $from && $hoje <= $to) {
-            echo "is between";
+            $lote['status'] = "Comprar";
           } else {
-            echo "NO GO!";
+            $lote['status'] = "Aguarde";
           }
           ?>
           <?php
