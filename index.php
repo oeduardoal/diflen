@@ -242,7 +242,7 @@
   <?php
   $registrations = array(
     "24h" => array(
-      "name" => "Lote especial 24h",
+      "name" => "Lote Especial Somente por 24 Horas",
       "description" => "Vagas Limitadas",
       "price" => "89,00",
       "from" => "05/05",
