@@ -350,7 +350,7 @@
                         </ul>
                         <h1 class="card-title pricing-card-title value">R$ <?php echo $lote['price'] ?></h1>
                         <?php if ($comprar) : ?>
-                          <a href="<?php echo $lote['link'] ?>">
+                          <a target="_new" href="<?php echo $lote['link'] ?>">
                             <button class="button button-a button-big button-rouded my-4"><?php echo $lote['status'] ?></button>
                           </a>
                         <?php else : ?>
