@@ -245,40 +245,40 @@
       "name" => "Lote 24h",
       "description" => "Use o cupom #24horas",
       "price" => "89,00",
-      "from" => "05/06/2019",
-      "to" => "05/06/2019",
+      "from" => "05/06",
+      "to" => "05/06",
       "link" => "https://www.e-inscricao.com/diflen/diflen-global/"
     ),
     "1Lote" => array(
       "name" => "Primeiro Lote",
       "description" => "Corre que ainda dá tempo",
       "price" => "99,00",
-      "from" => "06/06/2019",
-      "to" => "15/07/2019",
+      "from" => "06/06",
+      "to" => "15/07",
       "link" => "https://www.e-inscricao.com/diflen/diflen-global/"
     ),
     "2Lote" => array(
       "name" => "Segundo Lote",
       "description" => "Corre que ainda dá tempo",
       "price" => "114,00",
-      "from" => "16/06/2019",
-      "to" => "25/07/2019",
+      "from" => "16/06",
+      "to" => "25/07",
       "link" => "https://www.e-inscricao.com/diflen/diflen-global/"
     ),
     "3Lote" => array(
       "name" => "Terceiro Lote",
       "description" => "Corre que ainda dá tempo",
       "price" => "129,00",
-      "from" => "26/07/2019",
-      "to" => "03/09/2019",
+      "from" => "26/07",
+      "to" => "03/09",
       "link" => "https://www.e-inscricao.com/diflen/diflen-global/"
     ),
     "4Lote" => array(
       "name" => "Quarto Lote",
       "description" => "Corre que ainda dá tempo",
       "price" => "149,00",
-      "from" => "04/09/2019",
-      "to" => "04/11/2019",
+      "from" => "04/09",
+      "to" => "04/11",
       "link" => "https://www.e-inscricao.com/diflen/diflen-global/"
     ),
   )
@@ -321,7 +321,7 @@
                   <div class="card-body">
                     <ul class="list-unstyled mt-3 mb-4">
                       <li><?php echo $lote['description'] ?></li>
-                      <li>De: <?php echo $lote['from'] ?> até <?php echo $lote['to'] ?></li>
+                      <li>De <?php echo $lote['from'] ?> até <?php echo $lote['to'] ?></li>
                     </ul>
                     <h1 class="card-title pricing-card-title value">R$ <?php echo $lote['price'] ?></h1>
                     <button class="button button-disable button-big button-rouded my-4"><?php echo $lote['status'] ?></button>
