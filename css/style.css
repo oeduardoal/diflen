@@ -1339,7 +1339,7 @@ footer .credits a {
 .registration-card,
 .registration-aguarde,
 .registration-esgotado {
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 
 .registration-comprar {
