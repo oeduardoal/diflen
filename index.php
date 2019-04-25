@@ -308,21 +308,27 @@
 
           $fromD = strtotime("2019-" . $from[1] . "-" . $from[0] . " 00:00:00");
           $toD = strtotime("2019-" . $to[1] . "-" . $to[0] . " 23:59:59");
+          $class = "";
+          $opacity = true;
 
           if ($hoje > $fromD && $hoje < $toD) {
             $lote['status'] = "Comprar";
+            $class = "prevenda";
+            $opacity = false;
           } elseif ($hoje < $toD) {
+            $lote['status'] = "Aguarde";
+          } else {
             $lote['status'] = "Esgotado";
           }
           ?>
           <?php
           if ($key == "24h") :
             ?>
-            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" style="opacity: <?php echo ($opacity ? "0.5" : "1") ?>">
             <?php
           else :
             ?>
-              <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
+              <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" style="opacity: <?php echo ($opacity ? "0.5" : "1") ?>">
               <?php
             endif;
             ?>
