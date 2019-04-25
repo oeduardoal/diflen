@@ -309,7 +309,7 @@
           $fromD = strtotime("2019-" . $from[1] . "-" . $from[0] . " 00:00:00");
           $toD = strtotime("2019-" . $to[1] . "-" . $to[0] . " 23:59:59");
 
-          if ($hoje >= $fromD && $hoje <= $toD) {
+          if ($hoje > $fromD && $hoje < $toD) {
             $lote['status'] = "Comprar";
           } else {
             $lote['status'] = "Aguarde";
