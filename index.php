@@ -253,8 +253,8 @@
       "name" => "Primeiro Lote",
       "description" => "Corre que ainda dá tempo",
       "price" => "99,00",
-      "from" => "06/06",
-      "to" => "15/07",
+      "from" => "06/05",
+      "to" => "15/06",
       "link" => "https://www.e-inscricao.com/diflen/diflen-global/"
     ),
     "2Lote" => array(
@@ -302,7 +302,7 @@
         foreach ($registrations as $key => $lote) :
 
           $hoje = strtotime(date("Y-m-d H:i:s"));
-          // $hoje = strtotime("2019-06-05 10:00:00");
+          $hoje = strtotime("2019-06-05 10:00:00");
           $from = explode('/', $lote['from']);
           $to = explode('/', $lote['to']);
 
