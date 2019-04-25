@@ -300,7 +300,7 @@
       <div class="row">
         <?php
         foreach ($registrations as $key => $lote) :
-          $lote['status'] = "Comprar";
+          $lote['status'] = "Em breve";
           ?>
           <?php
           if ($key == "24h") :
