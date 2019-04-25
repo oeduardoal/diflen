@@ -302,7 +302,7 @@
         foreach ($registrations as $key => $lote) :
 
           $hoje = strtotime(date("Y-m-d H:i:s"));
-          $hoje = strtotime("2019-05-07 10:00:00");
+          $hoje = strtotime("2019-07-27 10:00:00");
           $from = explode('/', $lote['from']);
           $to = explode('/', $lote['to']);
 
