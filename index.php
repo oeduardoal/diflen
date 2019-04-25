@@ -311,8 +311,8 @@
 
           if ($hoje > $fromD && $hoje < $toD) {
             $lote['status'] = "Comprar";
-          } else {
-            $lote['status'] = "Aguarde";
+          } elseif ($hoje < $toD) {
+            $lote['status'] = "Esgotado";
           }
           ?>
           <?php
