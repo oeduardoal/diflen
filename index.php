@@ -348,7 +348,7 @@
                           <li><?php echo $lote['description'] ?></li>
                           <li>De <?php echo $lote['from'] ?> até <?php echo $lote['to'] ?></li>
                         </ul>
-                        <h1 class="card-title pricing-card-title value"><span>R$ 99,00</span> por R$ <?php echo $lote['price'] ?></h1>
+                        <h1 class="card-title pricing-card-title value">R$ <?php echo $lote['price'] ?></h1>
                         <?php if ($comprar) : ?>
                           <a href="<?php echo $lote['link'] ?>">
                             <button class="button button-a button-big button-rouded my-4"><?php echo $lote['status'] ?></button>
