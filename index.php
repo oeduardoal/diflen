@@ -308,7 +308,10 @@
 
           $from = strtotime("2019-" . $from[1] . "-" . $from[0] . " 00:00:00");
           $to = strtotime("2019-" . $to[1] . "-" . $to[0] . " 00:00:00");
-
+          echo $hoje;
+          echo $from;
+          echo $to;
+          exit;
           if ($hoje >= $from && $hoje <= $to) {
             $lote['status'] = "Comprar";
           } else {
