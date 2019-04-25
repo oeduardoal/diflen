@@ -305,16 +305,11 @@
           $hoje = strtotime("2019-05-07 10:00:00");
           $from = explode('/', $lote['from']);
           $to = explode('/', $lote['to']);
-          echo $from[1] . "-" . $from[0];
-          echo "<br/>";
-          echo $to[1] . "-" . $to[0];
-          $from = strtotime("2019-" . $from[1] . "-" . $from[0] . " 00:00:00");
-          $to = strtotime("2019-" . $to[1] . "-" . $to[0] . " 23:59:59");
-          // echo "2019-" . $from[1] . "-" . $from[0] . " 00:00:00";
-          // echo "2019-" . $to[1] . "-" . $to[0] . " 23:59:59";
-          // echo "2019-05-07 10:00:00";
-          exit;
-          if ($hoje >= $from && $hoje <= $to) {
+
+          $fromD = strtotime("2019-" . $from[1] . "-" . $from[0] . " 00:00:00");
+          $toD = strtotime("2019-" . $to[1] . "-" . $to[0] . " 23:59:59");
+
+          if ($hoje >= $fromD && $hoje <= $toD) {
             $lote['status'] = "Comprar";
           } else {
             $lote['status'] = "Aguarde";
