@@ -328,8 +328,8 @@
           <?php
           if ($key == "24h") :
             ?>
-            <div class="row">
-              <div class="col-sm-12 col-md-12 col-lg-2 col-xl-2 <?php echo $class; ?>">
+            <div class="col-sm-12 col-md-12 col-lg-2 col-xl-2 <?php echo $class; ?>">
+              <div class="row">
               <?php
             else :
               ?>
