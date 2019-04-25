@@ -245,40 +245,40 @@
       "name" => "Lote 24h",
       "description" => "Use o cupom #24horas",
       "price" => "89,00",
-      "from" => "05/06/2019 00:00:00",
-      "to" => "05/06/2019 23:59:29",
+      "from" => "05/06/2019",
+      "to" => "05/06/2019",
       "link" => "https://www.e-inscricao.com/diflen/diflen-global/"
     ),
     "1Lote" => array(
       "name" => "Primeiro Lote",
       "description" => "Corre que ainda dá tempo",
       "price" => "99,00",
-      "from" => "06/06/2019 00:00:00",
-      "to" => "15/07/2019 23:59:29",
+      "from" => "06/06/2019",
+      "to" => "15/07/2019",
       "link" => "https://www.e-inscricao.com/diflen/diflen-global/"
     ),
     "2Lote" => array(
       "name" => "Segundo Lote",
       "description" => "Corre que ainda dá tempo",
       "price" => "114,00",
-      "from" => "16/06/2019 00:00:00",
-      "to" => "25/07/2019 23:59:29",
+      "from" => "16/06/2019",
+      "to" => "25/07/2019",
       "link" => "https://www.e-inscricao.com/diflen/diflen-global/"
     ),
     "3Lote" => array(
       "name" => "Terceiro Lote",
       "description" => "Corre que ainda dá tempo",
       "price" => "129,00",
-      "from" => "26/07/2019 00:00:00",
-      "to" => "03/09/2019 23:59:29",
+      "from" => "26/07/2019",
+      "to" => "03/09/2019",
       "link" => "https://www.e-inscricao.com/diflen/diflen-global/"
     ),
     "4Lote" => array(
       "name" => "Quarto Lote",
       "description" => "Corre que ainda dá tempo",
       "price" => "149,00",
-      "from" => "04/09/2019 00:00:00",
-      "to" => "04/11/2019 23:59:29",
+      "from" => "04/09/2019",
+      "to" => "04/11/2019",
       "link" => "https://www.e-inscricao.com/diflen/diflen-global/"
     ),
   )
