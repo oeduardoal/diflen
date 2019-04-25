@@ -1342,7 +1342,10 @@ footer .credits a {
   opacity: 0.5;
 }
 
-.registration-comprar .card {
+.registration-comprar .card-header {
   background-color: #da3006;
+}
+
+.registration-comprar .card-header h4 {
   color: #fff;
 }
