@@ -326,11 +326,11 @@
           <?php
           if ($key == "24h") :
             ?>
-            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 <?php echo $class; ?>">
+            <div class="col-sm-12 col-md-12 col-lg-2 col-xl-2 <?php echo $class; ?>">
             <?php
           else :
             ?>
-              <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 <?php echo $class; ?>">
+              <div class="col-sm-12 col-md-6 col-lg-2 col-xl-2 <?php echo $class; ?>">
               <?php
             endif;
             ?>
