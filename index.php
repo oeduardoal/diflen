@@ -245,8 +245,8 @@
       "name" => "Lote especial 24h",
       "description" => "Use o cupom #24horas",
       "price" => "89,00",
-      "from" => "05/06",
-      "to" => "05/06",
+      "from" => "05/05",
+      "to" => "05/05",
       "link" => "https://www.e-inscricao.com/diflen/diflen-global/"
     ),
     "1Lote" => array(
