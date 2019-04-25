@@ -243,7 +243,7 @@
   $registrations = array(
     "24h" => array(
       "name" => "Lote especial 24h",
-      "description" => "Use o cupom #24horas",
+      "description" => "Vagas Limitadas",
       "price" => "89,00",
       "from" => "05/05",
       "to" => "05/05",
@@ -251,7 +251,7 @@
     ),
     "1Lote" => array(
       "name" => "Primeiro Lote",
-      "description" => "Corre que ainda dá tempo",
+      "description" => "Vagas Limitadas!",
       "price" => "99,00",
       "from" => "06/05",
       "to" => "15/06",
@@ -259,7 +259,7 @@
     ),
     "2Lote" => array(
       "name" => "Segundo Lote",
-      "description" => "Corre que ainda dá tempo",
+      "description" => "Vagas Limitadas!",
       "price" => "114,00",
       "from" => "16/06",
       "to" => "25/07",
@@ -267,7 +267,7 @@
     ),
     "3Lote" => array(
       "name" => "Terceiro Lote",
-      "description" => "Corre que ainda dá tempo",
+      "description" => "Vagas Limitadas!",
       "price" => "129,00",
       "from" => "26/07",
       "to" => "03/09",
@@ -275,7 +275,7 @@
     ),
     "4Lote" => array(
       "name" => "Quarto Lote",
-      "description" => "Corre que ainda dá tempo",
+      "description" => "Vagas Limitadas!",
       "price" => "149,00",
       "from" => "04/09",
       "to" => "04/11",
@@ -346,7 +346,7 @@
                       <div class="card-body">
                         <ul class="list-unstyled mt-3 mb-4">
                           <li><?php echo $lote['description'] ?></li>
-                          <li>De <?php echo $lote['from'] ?> até <?php echo $lote['to'] ?></li>
+                          <!-- <li>De <?php echo $lote['from'] ?> até <?php echo $lote['to'] ?></li> -->
                         </ul>
                         <h1 class="card-title pricing-card-title value">R$ <?php echo $lote['price'] ?></h1>
                         <?php if ($comprar) : ?>
