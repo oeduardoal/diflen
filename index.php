@@ -301,6 +301,7 @@
         <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
           <?php
           foreach ($registrations as $key => $lote) :
+            $lote['status'] = "Comprar";
             ?>
             <div class="card-deck mb-3 text-center">
               <div class="card mb-4 shadow-sm">
