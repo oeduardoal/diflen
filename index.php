@@ -298,30 +298,28 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
-          <?php
-          foreach ($registrations as $key => $lote) :
-            $lote['status'] = "Comprar";
-            ?>
-            <div class="card-deck mb-2 text-center">
-              <div class="card mb-4 shadow-sm">
-                <div class="card-header">
-                  <h4 class="my-0 font-weight-normal"><?php echo $lote['nome'] ?></h4>
-                  <p><?php echo $lote['description'] ?></p>
-                </div>
-                <div class="card-body">
-                  <ul class="list-unstyled mt-3 mb-4">
-                    <li>Vagas limitadas</li>
-                  </ul>
-                  <h1 class="card-title pricing-card-title value">R$<?php echo $lote['price'] ?></h1>
-                  <button class="button button-disable button-big button-rouded my-4"><?php echo $lote['status'] ?></button>
-                </div>
+        <?php
+        foreach ($registrations as $key => $lote) :
+          $lote['status'] = "Comprar";
+          ?>
+          <div class="card-deck mb-2 text-center">
+            <div class="card mb-4 shadow-sm">
+              <div class="card-header">
+                <h4 class="my-0 font-weight-normal"><?php echo $lote['nome'] ?></h4>
+                <p><?php echo $lote['description'] ?></p>
+              </div>
+              <div class="card-body">
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Vagas limitadas</li>
+                </ul>
+                <h1 class="card-title pricing-card-title value">R$<?php echo $lote['price'] ?></h1>
+                <button class="button button-disable button-big button-rouded my-4"><?php echo $lote['status'] ?></button>
               </div>
             </div>
-          <?php
-        endforeach;
-        ?>
-        </div>
+          </div>
+        <?php
+      endforeach;
+      ?>
       </div>
       <!--/ Table Price End /-->
       <div class="row">
