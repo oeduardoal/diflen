@@ -376,10 +376,9 @@
         <div class="row">
           <div class="col-1"></div>
           <div class="col-10">
-            <h3 class="title-a display-7 text-center space-top light fontGlobal">Algumas Informações</h3>
+            <h3 class="title-a display-7 text-center space-top light fontGlobal">Outras Informações</h3>
             <br />
             <p class="subtitle-a light text-center">O valor da inscrição é individual e pode ser pago no boleto, cartão de crédito ou de débito.</p>
-            <p class="subtitle-a light text-center">Crianças até 11 anos não pagam.</p>
             <p class="subtitle-a light text-center">As vagas são limitadas.</p>
             <p class="subtitle-a light text-center">Política de reembolso e cancelamento: somente até 7 dias antes do evento será devolvido o valor integral pago.</p>
           </div>
