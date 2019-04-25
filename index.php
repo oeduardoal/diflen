@@ -84,7 +84,7 @@
           <p class="intro-subtitle space-bottom"><span class="text-slider-items">Discipulando,e Formando,Lideres,Em nações,Somos todos Diflen</span><strong class="text-slider"></strong></p>
           <h2 class="mb-4 fontGlobal light subtitleGlobal">15 e 16 de Novembro 2019</h2>
           <a class="nav-link js-scroll" href="#subscriber">
-            <button class="button button-a button-big button-rouded">Primeiro Lote</button>
+            <button class="button button-a button-big button-rouded">Mais Informações</button>
           </a>
         </div>
       </div>
