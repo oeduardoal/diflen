@@ -300,28 +300,26 @@
       <div class="row">
         <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
           <?php
-          foreach ($registrations as $key => $lotes) :
-            foreach ($lotes as $lote) :
-              $lote['status'] = "Comprar";
-            endforeach;
-          endforeach;
-          ?>
-          <!-- <div class="card-deck mb-3 text-center">
-                        <div class="card mb-4 shadow-sm">
-                          <div class="card-header">
-                            <h4 class="my-0 font-weight-normal"><?php echo $lote['nome'] ?></h4>
-                            <p><?php echo $lote['description'] ?></p>
-                          </div>
-                          <div class="card-body">
-                            <ul class="list-unstyled mt-3 mb-4">
-                              <li>Vagas limitadas</li>
-                            </ul>
-                            <h1 class="card-title pricing-card-title value">R$<?php echo $lote['price'] ?></h1>
-                            <button class="button button-disable button-big button-rouded my-4"><?php echo $lote['status'] ?></button>
-                          </div>
-                        </div>
-                      </div> -->
-
+          foreach ($registrations as $key => $lote) :
+            ?>
+            <div class="card-deck mb-3 text-center">
+              <div class="card mb-4 shadow-sm">
+                <div class="card-header">
+                  <h4 class="my-0 font-weight-normal"><?php echo $lote['nome'] ?></h4>
+                  <p><?php echo $lote['description'] ?></p>
+                </div>
+                <div class="card-body">
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Vagas limitadas</li>
+                  </ul>
+                  <h1 class="card-title pricing-card-title value">R$<?php echo $lote['price'] ?></h1>
+                  <button class="button button-disable button-big button-rouded my-4"><?php echo $lote['status'] ?></button>
+                </div>
+              </div>
+            </div>
+          <?php
+        endforeach;
+        ?>
         </div>
       </div>
       <!--/ Table Price End /-->
