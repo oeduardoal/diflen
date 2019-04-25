@@ -328,7 +328,7 @@
             <?php
           else :
             ?>
-              <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" style="opacity: <?php echo ($opacity ? "0.5" : "1") ?>">
+              <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3" style="opacity: <?php echo ($opacity ? "0.5" : "1") ?>">
               <?php
             endif;
             ?>
