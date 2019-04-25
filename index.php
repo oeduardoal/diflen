@@ -321,83 +321,84 @@
               </div>
             <?php
           endforeach;
-          ?>
-          </div>
-        </div>
-        <!--/ Table Price End /-->
-        <div class="row">
-          <div class="col-1"></div>
-          <div class="col-10">
-            <h4 class="display-7 text-center space-top light fontGlobal">Algumas Informações</h4>
-            <br />
-            <p class="subtitle-a light text-center">O valor da inscrição é individual e pode ser pago no boleto, cartão de crédito ou de débito.</p>
-            <p class="subtitle-a light text-center">Crianças até 11 anos não pagam.</p>
-            <p class="subtitle-a light text-center">As vagas são limitadas.</p>
-            <p class="subtitle-a light text-center">Não inclui hospedagem e transporte. As inscrições encerram no dia 10/Novembro.</p>
-            <p class="subtitle-a light text-center">Política de reembolso e cancelamento: somente até 7 dias antes do evento será devolvido o valor integral pago.</p>
-          </div>
-          <div class="col-1"></div>
+        endforeach;
+        ?>
         </div>
       </div>
-    </section>
-    <!--/ Section Subscriber End /-->
+      <!--/ Table Price End /-->
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10">
+          <h4 class="display-7 text-center space-top light fontGlobal">Algumas Informações</h4>
+          <br />
+          <p class="subtitle-a light text-center">O valor da inscrição é individual e pode ser pago no boleto, cartão de crédito ou de débito.</p>
+          <p class="subtitle-a light text-center">Crianças até 11 anos não pagam.</p>
+          <p class="subtitle-a light text-center">As vagas são limitadas.</p>
+          <p class="subtitle-a light text-center">Não inclui hospedagem e transporte. As inscrições encerram no dia 10/Novembro.</p>
+          <p class="subtitle-a light text-center">Política de reembolso e cancelamento: somente até 7 dias antes do evento será devolvido o valor integral pago.</p>
+        </div>
+        <div class="col-1"></div>
+      </div>
+    </div>
+  </section>
+  <!--/ Section Subscriber End /-->
 
-    <!--/ Section Local Init /-->
-    <section id="local" class="paralax-mf footer-paralax bg-image route" style="background-image: url(<?php echo assetsurl ?>/img/banner.jpg)">
-      <div class="overlay-mf"></div>
+  <!--/ Section Local Init /-->
+  <section id="local" class="paralax-mf footer-paralax bg-image route" style="background-image: url(<?php echo assetsurl ?>/img/banner.jpg)">
+    <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="title-box text-center">
+                <h3 class="title-a light fontGlobal">Onde Será?</h3>
+                <p class="subtitle-a light">Igreja Apostólica Novidade de Vida</p>
+                <p>Av. Eng. Eusébio Stevaux, 1159 - Jurubatuba, São Paulo - SP</p>
+                <div class="line-mf"></div>
+              </div>
+            </div>
+          </div>
+          <iframe class="space-bottom" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.002939125009!2d-46.698205685020056!3d-23.675852884626142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce51b45342eeb5%3A0x70279f2e7a00e04f!2sIgreja+Apost%C3%B3lica+Novidade+de+Vida!5e0!3m2!1spt-BR!2sbr!4v1555184611675!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+    <footer>
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
-            <div class="row">
-              <div class="col-sm-12">
-                <div class="title-box text-center">
-                  <h3 class="title-a light fontGlobal">Onde Será?</h3>
-                  <p class="subtitle-a light">Igreja Apostólica Novidade de Vida</p>
-                  <p>Av. Eng. Eusébio Stevaux, 1159 - Jurubatuba, São Paulo - SP</p>
-                  <div class="line-mf"></div>
-                </div>
-              </div>
+            <div class="copyright-box">
+              <p class="copyright">&copy; Copyright <strong>Diflen</strong>. Todos os direitos reservados</p>
             </div>
-            <iframe class="space-bottom" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.002939125009!2d-46.698205685020056!3d-23.675852884626142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce51b45342eeb5%3A0x70279f2e7a00e04f!2sIgreja+Apost%C3%B3lica+Novidade+de+Vida!5e0!3m2!1spt-BR!2sbr!4v1555184611675!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
         </div>
       </div>
+    </footer>
+  </section>
+  <!--/ Section Local End /-->
 
-      <footer>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="copyright-box">
-                <p class="copyright">&copy; Copyright <strong>Diflen</strong>. Todos os direitos reservados</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
-    </section>
-    <!--/ Section Local End /-->
-
-    <!--/ <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!--/ <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
                             <div id="preloader"></div> /-->
 
-    <!-- JavaScript Libraries -->
-    <script src="<?php echo assetsurl ?>/lib/jquery/jquery.min.js"></script>
-    <script src="<?php echo assetsurl ?>/lib/jquery/jquery-migrate.min.js"></script>
-    <script src="<?php echo assetsurl ?>/lib/popper/popper.min.js"></script>
-    <script src="<?php echo assetsurl ?>/lib/bootstrap/js/bootstrap.min.js"></script>
-    <script src="<?php echo assetsurl ?>/lib/easing/easing.min.js"></script>
-    <script src="<?php echo assetsurl ?>/lib/counterup/jquery.waypoints.min.js"></script>
-    <script src="<?php echo assetsurl ?>/lib/counterup/jquery.counterup.js"></script>
-    <script src="<?php echo assetsurl ?>/lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="<?php echo assetsurl ?>/lib/lightbox/js/lightbox.min.js"></script>
-    <script src="<?php echo assetsurl ?>/lib/typed/typed.min.js"></script>
+  <!-- JavaScript Libraries -->
+  <script src="<?php echo assetsurl ?>/lib/jquery/jquery.min.js"></script>
+  <script src="<?php echo assetsurl ?>/lib/jquery/jquery-migrate.min.js"></script>
+  <script src="<?php echo assetsurl ?>/lib/popper/popper.min.js"></script>
+  <script src="<?php echo assetsurl ?>/lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="<?php echo assetsurl ?>/lib/easing/easing.min.js"></script>
+  <script src="<?php echo assetsurl ?>/lib/counterup/jquery.waypoints.min.js"></script>
+  <script src="<?php echo assetsurl ?>/lib/counterup/jquery.counterup.js"></script>
+  <script src="<?php echo assetsurl ?>/lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="<?php echo assetsurl ?>/lib/lightbox/js/lightbox.min.js"></script>
+  <script src="<?php echo assetsurl ?>/lib/typed/typed.min.js"></script>
 
-    <!-- Template Main Javascript File -->
-    <script src="<?php echo assetsurl ?>/js/main.js"></script>
+  <!-- Template Main Javascript File -->
+  <script src="<?php echo assetsurl ?>/js/main.js"></script>
 
-    <!-- Countdown -->
-    <script src="<?php echo assetsurl ?>/js/countdown.js"></script>
+  <!-- Countdown -->
+  <script src="<?php echo assetsurl ?>/js/countdown.js"></script>
 
-  </body>
+</body>
 
-  </html>
+</html>
