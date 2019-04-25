@@ -317,7 +317,7 @@
             $comprar = true;
           } elseif ($hoje < $toD) {
             $lote['status'] = "Aguarde";
-            $lote['description'] = "Aguarde a data para o lote!";
+            $lote['description'] = "Vagas Limitadas!";
             $class = "registration-aguarde";
           } else {
             $lote['status'] = "Sold Out";
