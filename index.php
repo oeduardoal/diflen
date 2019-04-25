@@ -381,7 +381,6 @@
             <p class="subtitle-a light text-center">O valor da inscrição é individual e pode ser pago no boleto, cartão de crédito ou de débito.</p>
             <p class="subtitle-a light text-center">Crianças até 11 anos não pagam.</p>
             <p class="subtitle-a light text-center">As vagas são limitadas.</p>
-            <p class="subtitle-a light text-center">Não inclui hospedagem e transporte. As inscrições encerram no dia 10/Novembro.</p>
             <p class="subtitle-a light text-center">Política de reembolso e cancelamento: somente até 7 dias antes do evento será devolvido o valor integral pago.</p>
           </div>
           <div class="col-1"></div>
