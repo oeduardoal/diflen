@@ -308,8 +308,7 @@
 
           $fromD = strtotime("2019-" . $from[1] . "-" . $from[0] . " 00:00:00");
           $toD = strtotime("2019-" . $to[1] . "-" . $to[0] . " 23:59:59");
-          $class = "";
-
+          $class = "opacity-card";
           if ($hoje > $fromD && $hoje < $toD) {
             $lote['status'] = "Comprar";
             $class = "prevenda";
@@ -322,11 +321,11 @@
           <?php
           if ($key == "24h") :
             ?>
-            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 <?php echo $class; ?>">
             <?php
           else :
             ?>
-              <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
+              <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 <?php echo $class; ?>">
               <?php
             endif;
             ?>
