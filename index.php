@@ -308,14 +308,16 @@
 
           $fromD = strtotime("2019-" . $from[1] . "-" . $from[0] . " 00:00:00");
           $toD = strtotime("2019-" . $to[1] . "-" . $to[0] . " 23:59:59");
-          $class = "opacity-card";
+          $class = "registration-card";
           if ($hoje > $fromD && $hoje < $toD) {
             $lote['status'] = "Comprar";
-            $class = "prevenda";
+            $class = "registration-comprar";
           } elseif ($hoje < $toD) {
             $lote['status'] = "Aguarde";
+            $class = "registration-aguarde";
           } else {
             $lote['status'] = "Esgotado";
+            $class = "registration-esgotado";
           }
           ?>
           <?php
