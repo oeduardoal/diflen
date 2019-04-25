@@ -322,7 +322,7 @@
                     <ul class="list-unstyled mt-3 mb-4">
                       <li><?php echo $lote['description'] ?></li>
                     </ul>
-                    <h1 class="card-title pricing-card-title value">R$<?php echo $lote['price'] ?></h1>
+                    <h1 class="card-title pricing-card-title value">R$ <?php echo $lote['price'] ?></h1>
                     <button class="button button-disable button-big button-rouded my-4"><?php echo $lote['status'] ?></button>
                   </div>
                 </div>
