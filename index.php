@@ -79,8 +79,8 @@
     <div class="intro-content display-table">
       <div class="table-cell">
         <div class="container">
-          <h1 class="intro-title mb-4 fontGlobal">DIFLEN GLOBAL 2019</h1>
-          <h4 class="display-6 color-d space-top fontGlobal">ALL IN</h4>
+          <h1 class="intro-title mb-4 fontGlobal" style="margin-top: 9rem;">DIFLEN GLOBAL 2019</h1>
+          <h4 class="display-6 color-d fontGlobal">ALL IN</h4>
           <p class="intro-subtitle space-bottom"><span class="text-slider-items">Discipulando,e Formando,Líderes,Em Nações,Somos todos Diflen</span><strong class="text-slider"></strong></p>
           <h2 class="mb-4 fontGlobal light subtitleGlobal">15 e 16 de Novembro 2019</h2>
           <a class="nav-link js-scroll" href="#subscriber">
