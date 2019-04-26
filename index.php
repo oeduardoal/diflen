@@ -243,7 +243,7 @@
   $registrations = array(
     "24h" => array(
       "name" => "Lote Especial Somente por 24 Horas",
-      "description" => "Garanta já o seu ingresso!",
+      "description" => "Use #24horas para aplicar o desconto!",
       "price" => "89,00",
       "from" => "05/05",
       "to" => "05/05",
