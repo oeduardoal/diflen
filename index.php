@@ -74,7 +74,7 @@
   <!--/ Nav End /-->
 
   <!--/ Intro Destaque Init /-->
-  <div id="home" class="intro route bg-image" style="background-image: url(<?php echo assetsurl ?>/img/global.png)">
+  <div id="home" class="intro route bg-image" style="background: url(<?php echo assetsurl ?>/img/global.png);background-repeat: no-repeat;background-position: center center;background-size: cover;">
     <div class="overlay-itro"></div>
     <div class="intro-content display-table">
       <div class="table-cell">
@@ -94,7 +94,7 @@
 
   <!--/ Section Countdown Init /-->
   <section id="countdown" class="route">
-    <div class="section-counter paralax-mf bg-image" style="background: url(<?php echo assetsurl ?>/img/banner.jpg);background-repeat: no-repeat;background-position: center center;background-size: cover;">
+    <div class="section-counter paralax-mf bg-image" style="background-image: url(<?php echo assetsurl ?>/img/banner.jpg)">
       <div class="overlay-mf"></div>
       <div class="container">
         <div class="row">
