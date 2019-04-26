@@ -94,7 +94,7 @@
 
   <!--/ Section Countdown Init /-->
   <section id="countdown" class="route">
-    <div class="section-counter paralax-mf bg-image" style="background-image: url(<?php echo assetsurl ?>/img/banner.jpg)">
+    <div class="section-counter paralax-mf bg-image" style="background: url(<?php echo assetsurl ?>/img/banner.jpg);background-repeat: no-repeat;background-position: center center;background-size: cover;">
       <div class="overlay-mf"></div>
       <div class="container">
         <div class="row">
