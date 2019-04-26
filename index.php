@@ -81,7 +81,7 @@
         <div class="container">
           <h1 class="intro-title mb-4 fontGlobal">DIFLEN GLOBAL 2019</h1>
           <h4 class="display-6 color-d space-top fontGlobal">ALL IN</h4>
-          <p class="intro-subtitle space-bottom"><span class="text-slider-items">Discipulando,e Formando,Líderes,Em nações,Somos todos Diflen</span><strong class="text-slider"></strong></p>
+          <p class="intro-subtitle space-bottom"><span class="text-slider-items">Discipulando,e Formando,Líderes,Em Nações,Somos todos Diflen</span><strong class="text-slider"></strong></p>
           <h2 class="mb-4 fontGlobal light subtitleGlobal">15 e 16 de Novembro 2019</h2>
           <a class="nav-link js-scroll" href="#subscriber">
             <button class="button button-a button-big button-rouded">Mais Informações</button>
@@ -146,9 +146,9 @@
 
           <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
             <h1 class="display-4 fontGlobal">Movimento Diflen</h1>
-            <p class="lead"><strong>Nossa missão é</strong> inspirar e levantar jovens para que sejam verdadeiros discípulos de Cristo, e que, de acordo com seu potencial, talento e chamado, sejam influentes em todas as esferas da sociedade e em todas as nações. Portanto ide, fazei discípulos de todas as nações, batizando-os em nome do Pai, e do Filho, e do Espírito Santo; Ensinando-os a guardar todas as coisas que eu vos tenho mandado; e eis que eu estou convosco todos os dias, até a consumação dos séculos. Amém. Mateus 28:19,20.
+            <p class="lead"><strong>Nossa missão é</strong> inspirar e levantar jovens para que sejam verdadeiros discípulos de Cristo, e que, de acordo com seu potencial, talento e chamado, sejam influentes em todas as esferas da sociedade e em todas as Nações. Portanto ide, fazei discípulos de todas as Nações, batizando-os em nome do Pai, e do Filho, e do Espírito Santo; Ensinando-os a guardar todas as coisas que eu vos tenho mandado; e eis que eu estou convosco todos os dias, até a consumação dos séculos. Amém. Mateus 28:19,20.
               <br />
-              <br /><strong>DIFLEN - Discipulando e formando líderes em nações</strong></p>
+              <br /><strong>DIFLEN - Discipulando e formando líderes em Nações</strong></p>
             <br />
             <br />
             <h4 class="display-6 fontGlobal">Diflen Global</h4>
@@ -191,7 +191,7 @@
                     <div class="box">
                         <img src="<?php echo assetsurl ?>/img/isaias.png"></img>
                         <h4 class="display-7 text-center fontGlobal">Pr. Isaías Huber</h4>
-                        <p class="subtitle-a text-center">Líder internacional do movimento DIFLEN. Pastor de jovens há muitos anos, ele tem atuado na missão de inspirar e levantar jovens, para que sejam influentes em todas as esferas da sociedade e em todas as nações.</p>
+                        <p class="subtitle-a text-center">Líder internacional do movimento DIFLEN. Pastor de jovens há muitos anos, ele tem atuado na missão de inspirar e levantar jovens, para que sejam influentes em todas as esferas da sociedade e em todas as Nações.</p>
                     </div>
                 </div>
                 <div class="col-md-4">`
