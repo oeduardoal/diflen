@@ -243,7 +243,7 @@
   $registrations = array(
     "24h" => array(
       "name" => "Lote Especial Somente por 24 Horas",
-      "description" => "Vagas Limitadas",
+      "description" => "Garanta já o seu ingresso!",
       "price" => "89,00",
       "from" => "05/05",
       "to" => "05/05",
@@ -317,7 +317,7 @@
             $comprar = true;
           } elseif ($hoje < $toD) {
             $lote['status'] = "Aguarde";
-            $lote['description'] = "Vagas Limitadas!";
+            // $lote['description'] = "Vagas Limitadas!";
             $class = "registration-aguarde";
           } else {
             $lote['status'] = "Sold Out";
