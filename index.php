@@ -148,7 +148,7 @@
             <h1 class="display-4 fontGlobal">Movimento Diflen</h1>
             <p class="lead"><strong>Nossa missão é</strong> inspirar e levantar jovens para que sejam verdadeiros discípulos de Cristo, e que, de acordo com seu potencial, talento e chamado, sejam influentes em todas as esferas da sociedade e em todas as nações. Portanto ide, fazei discípulos de todas as nações, batizando-os em nome do Pai, e do Filho, e do Espírito Santo; Ensinando-os a guardar todas as coisas que eu vos tenho mandado; e eis que eu estou convosco todos os dias, até a consumação dos séculos. Amém. Mateus 28:19,20.
               <br />
-              <br /><strong>DIFLEN - Discipulando e formando lideres em nações</strong></p>
+              <br /><strong>DIFLEN - Discipulando e formando líderes em nações</strong></p>
             <br />
             <br />
             <h4 class="display-6 fontGlobal">Diflen Global</h4>
