@@ -44,51 +44,51 @@
   <!--/ Nav Init /-->
   <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll" href="#page-top"><img class="logo" src="<?php echo assetsurl ?>/img/logo.png"></a>
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#about">Movimento</a>
-          </li>
-          <!-- <li class="nav-item">
-                        <a class="nav-link js-scroll" href="#preletores">Preletores</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll" href="#bandas">Bandas</a>
-                    </li> -->
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#subscriber">Inscrição</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#local">Local</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+      <a class="navbar-brand js-scroll" href="#page-top"><img class="logo" src="img/logo.png"></a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+          <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll" href="#about">Movimento</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll" href="#preletores">Convidados</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll" href="#bandas">Bandas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll" href="#subscriber">Inscrição</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll" href="#local">Local</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
   <!--/ Nav End /-->
 
   <!--/ Intro Destaque Init /-->
   <div id="home" class="intro route bg-image" style="background: url(<?php echo assetsurl ?>/img/global.png);background-repeat: no-repeat;background-position: center center;background-size: cover;">
-    <div class="overlay-itro"></div>
-    <div class="intro-content display-table">
-      <div class="table-cell">
-        <div class="container">
-          <h1 class="intro-title mb-4 fontGlobal" style="margin-top: 9rem;">DIFLEN GLOBAL 2019</h1>
-          <h4 class="display-6 color-d fontGlobal">ALL IN</h4>
-          <p class="intro-subtitle space-bottom"><span class="text-slider-items">Discipulando,e Formando,Líderes,Em Nações,Somos todos Diflen</span><strong class="text-slider"></strong></p>
-          <h2 class="mb-4 fontGlobal light subtitleGlobal">15 e 16 de Novembro 2019</h2>
-          <a class="nav-link js-scroll" href="#subscriber">
-            <button class="button button-a button-big button-rouded">Mais Informações</button>
-          </a>
+  <div class="overlay-itro"></div>
+        <div class="intro-content display-table">
+            <div class="table-cell">
+                <div class="container">
+                    <h4 class="display-6 color-d space-top fontGlobal">Conferência Diflen</h4>
+                    <h1 class="intro-title mb-4 fontGlobal">WE ARE GLOBAL</h1>
+                    <p class="intro-subtitle space-bottom"><span class="text-slider-items">Discipulando,e Formando,Líderes,Em nações,Somos todos Diflen</span><strong class="text-slider"></strong></p>
+                    <h2 class="mb-4 fontGlobal light subtitleGlobal">15 e 16 de Novembro 2019</h2>
+                    <a class="nav-link js-scroll" href="#subscriber">
+                        <button class="button button-a button-big button-rouded">Faça sua inscrição</button>
+                    </a>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
   </div>
   <!--/ Intro Destaque End /-->
 
@@ -140,46 +140,66 @@
   </section>
 
   <section id="about" class="about-mf sect-pt4 route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-
-          <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-            <h1 class="display-4 fontGlobal">Movimento Diflen</h1>
-            <p class="lead"><strong>Nossa missão é</strong> inspirar e levantar jovens para que sejam verdadeiros discípulos de Cristo, e que, de acordo com seu potencial, talento e chamado, sejam influentes em todas as esferas da sociedade e em todas as Nações. Portanto ide, fazei discípulos de todas as Nações, batizando-os em nome do Pai, e do Filho, e do Espírito Santo; Ensinando-os a guardar todas as coisas que eu vos tenho mandado; e eis que eu estou convosco todos os dias, até a consumação dos séculos. Amém. Mateus 28:19,20.
-              <br />
-              <br /><strong>DIFLEN - Discipulando e formando líderes em Nações</strong></p>
-            <br />
-            <br />
-            <h4 class="display-6 fontGlobal">Diflen Global</h4>
-            <p class="lead">Nossa conferência reúne jovens de todo Brasil e de todo mundo para trocar experiências, crescer espiritualmente, estabelecer relacionamentos, com muitas palavras que edificam, workshops e programações incríveis com vários convidados nacionais e internacionais.
-              <br />
-              <br /><strong>Confira o que rolou na conferência do ano passado:</strong></p>
-          </div>
-          <!-- 16:9 aspect ratio -->
-          <div class="embed-responsive embed-responsive-16by9 space-bottom">
-            <iframe src="https://www.youtube.com/embed/fjdgxAg9tD0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-  </section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+                        <h1 class="display-4 fontGlobal">Movimento Diflen</h1>
+                        <p class="lead"><strong>Nossa missão é</strong> inspirar e levantar jovens para que sejam verdadeiros discípulos de Cristo, e que, de acordo com seu potencial, talento e chamado, sejam influentes em todas as esferas da sociedade e em todas as nações. Portanto ide, fazei discípulos de todas as nações, batizando-os em nome do Pai, e do Filho, e do Espírito Santo; Ensinando-os a guardar todas as coisas que eu vos tenho mandado; e eis que eu estou convosco todos os dias, até a consumação dos séculos. Amém. Mateus 28:19,20.
+                            <br />
+                            <br /><strong>DIFLEN - Discipulando e formando líderes em nações</strong></p>
+                        <br />
+                        <br />
+                        <h4 class="display-6 fontGlobal">Diflen Global</h4>
+                        <p class="lead">Nossa conferência reúne jovens de todo Brasil e de todo mundo para trocar experiências, crescer espiritualmente, estabelecer relacionamentos, com muitas palavras que edificam, workshops e programações incríveis com vários convidados nacionais e internacionais.
+                            <br />
+                            <br /><strong>Teaser We are Global</strong></p>
+                    </div>
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9 space-bottom">
+                        <iframe src="https://www.youtube.com/embed/w9I-fKVKJ3Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+    </section>
   <!--/ Section Countdown End /-->
 
   <!-- Comentar preletores e banda - Pr Isaias -->
 
   <!--/ Section Preletores Init /-->
-  <!-- <section id="preletores" class="services-mf route">
+  <section id="preletores" class="services-mf route">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
                     <div class="title-box text-center">
-                        <h3 class="title-a fontGlobal">Preletores Confirmados</h3>
-                        <p class="subtitle-a">Veja os preletores convidados até o momento...</p>
+                        <h3 class="title-a fontGlobal">Convidados Confirmados</h3>
+                        <p class="subtitle-a">Veja os convidados até o momento...</p>
                         <div class="line-mf"></div>
                     </div>
                 </div>
             </div>
             <div class="row">
+                    <div class="col-md-6">
+                            <div class="box">
+                                <img src="<?php echo assetsurl ?>/img/zoe.png"></img>
+                                <h4 class="display-7 text-center fontGlobal">Zoe Lilly</h4>
+                                <p class="subtitle-a text-center">Zoe é uma artista e usa seus dons para impactar a sociedade, levando amor, paz e esperança por onde passa. Seu desejo é ver verdadeiros adoradores que ama o Senhor e tem intimidade com Ele, e vivem além do que apenas os seus olhos físicos enxergam. Para isso, além de ministrar adoração, Zoe realiza workshops para equipar líderes e ministros de louvor e adoração em toda a igreja brasileira.</p>        
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                                <div class="box">
+                                    <img src="<?php echo assetsurl ?>/img/lucinho.png"></img>
+                                    <h4 class="display-7 text-center fontGlobal">Pr. Lucinho Barreto</h4>
+                                    <p class="subtitle-a text-center">Lúcio Barreto Júnior é pastor na Igreja Batista da Lagoinha. Casado com Patrícia Barreto, pai da Emily e do Davi, Pr. Lucinho, dedica sua vida para evangelizar, preparar e equipar jovens e igrejas para falar do amor de Jesus e a viver este amor com intensidade. Junto com sua família, realiza diversas viagens missionárias e ações sociais a fim de levar o amor de Deus – seja por meio do serviço, seja pela própria palavra divina. Já viajou para o Índia, Haiti, Jordânia e Nepal.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                    <div class="box">
+                                        <img src="<?php echo assetsurl ?>/img/isaias.png"></img>
+                                        <h4 class="display-7 text-center fontGlobal">Pr. Isaías Huber</h4>
+                                        <p class="subtitle-a text-center">Líder internacional do movimento DIFLEN. Pastor de jovens há muitos anos, ele tem atuado na missão de inspirar e levantar jovens, para que sejam influentes em todas as esferas da sociedade e em todas as nações.</p>
+                                    </div>
+                                </div>
                 <div class="col-md-6">
                     <div class="box">
                         <img src="<?php echo assetsurl ?>/img/nelson.png"></img>
@@ -189,11 +209,12 @@
                 </div>
                 <div class="col-md-6">
                     <div class="box">
-                        <img src="<?php echo assetsurl ?>/img/isaias.png"></img>
-                        <h4 class="display-7 text-center fontGlobal">Pr. Isaías Huber</h4>
-                        <p class="subtitle-a text-center">Líder internacional do movimento DIFLEN. Pastor de jovens há muitos anos, ele tem atuado na missão de inspirar e levantar jovens, para que sejam influentes em todas as esferas da sociedade e em todas as Nações.</p>
+                        <img src="<?php echo assetsurl ?>/img/michael.png"></img>
+                        <h4 class="display-7 text-center fontGlobal">Pr. Michael Brodeur</h4>
+                        <p class="subtitle-a text-center">Sou o autor da Cultura do Avivamento: Preparando a Igreja para o Próximo Grande Despertar (publicado pela Regal). Este livro inclui um capítulo de idéias profundas de Bill Johnson, o líder da Igreja de Betel e dois capítulos de Banning Liebscher, diretor de cultura de Jesus, onde eu servi como diretor do projeto de cultura: uma estratégia de orientação de quarenta anos para levantar amanhã líderes. Além disso, dou aulas no Bethel School of Supernatural Ministry em Redding, Califórnia, e presto serviços de consultoria para várias igrejas e organizações em todo o mundo.</p>
                     </div>
                 </div>
+                <!--/
                 <div class="col-md-4">`
                     <div class="box">
                         <img src="img/anderson.png"></img>
@@ -201,13 +222,41 @@
                         <p class="subtitle-a text-center">Pastor sênior da Igreja Vivo por Ti, escritor, formado pelo Centro de Treinamento Rhema Brasil, líder apostólico da Igreja Em Movimento. Líder mobilizador do Entre Amigos, clube de mentoria para jovens pastores.</p>
                     </div>
                 </div>
+                /-->
             </div>
         </div>
-    </section> -->
+    </section>
   <!--/ Section Preletores End /-->
 
+    <!--/ Section Atracoes /-->
+    <section id="workshop" class="portfolio-mf sect-pt4 route">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="title-box text-center">
+                        <h3 class="title-a fontGlobal">Mais atrações</h3>
+                        <p class="subtitle-a">Veja mais convidados que estarão na conferência</p>
+                        <div class="line-mf"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="box">
+                        <img src="<?php echo assetsurl ?>/img/workshops.png"></img>
+                    </div>
+                </div>
+            </div>
+            <div class="title-box text-center">
+                <h4 class="display-7 text-center fontGlobal">E muitos outros...</h4>
+                <p class="subtitle-a">Em breve mais convidados</p>
+            </div>
+        </div>
+    </section>
+    <!--/ Section Atracoes End /-->
+
   <!--/ Section Banda Init /-->
-  <!-- <section id="bandas" class="portfolio-mf sect-pt4 route">
+  <section id="bandas" class="portfolio-mf sect-pt4 route">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -219,24 +268,19 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4">
-                    <div class="box">
-                        <img src="<?php echo assetsurl ?>/img/zoe.png"></img>
-                    </div>
-                </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="box">
                         <img src="<?php echo assetsurl ?>/img/daniel.png"></img>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="box">
                         <img src="<?php echo assetsurl ?>/img/diflenMusic.png"></img>
                     </div>
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
   <!--/ Section Banda End /-->
 
   <?php
@@ -405,6 +449,9 @@
             </div>
           </div>
           <iframe class="space-bottom" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.002939125009!2d-46.698205685020056!3d-23.675852884626142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce51b45342eeb5%3A0x70279f2e7a00e04f!2sIgreja+Apost%C3%B3lica+Novidade+de+Vida!5e0!3m2!1spt-BR!2sbr!4v1555184611675!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9 space-bottom">
+            <iframe src="https://www.youtube.com/embed/fjdgxAg9tD0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </div>
