@@ -183,7 +183,9 @@
           <div class="box">
             <img src="<?php echo assetsurl ?>/img/isaias.png"></img>
             <h4 class="display-7 text-center fontGlobal">Pr. Isaías Huber</h4>
-            <p class="subtitle-a text-center">Líder internacional do movimento DIFLEN. Pastor de jovens há muitos anos, ele tem atuado na missão de inspirar e levantar jovens, para que sejam influentes em todas as esferas da sociedade e em todas as nações.</p>
+            <p class="subtitle-a text-center">
+              Líder global do movimento DIFLEN e pastor de jovens da Paz Church, Isaías Huber é uma voz que tem inspirado milhares de jovens nas nações a viverem uma vida radical por Jesus. <br /> Mestre em Comunicação Intercultural pela Columbia International University, bacharel em Ministério Intercultural pelo Life Pacific College, Isaías exerce seu ministério ao lado de sua esposa Nicole e seus filhos Noah, Bella e Keahi. Autor do livro "All In"
+            </p>
           </div>
         </div>
         <div class="col-md-6">
@@ -211,7 +213,7 @@
           <div class="box">
             <img src="<?php echo assetsurl ?>/img/michael.png"></img>
             <h4 class="display-7 text-center fontGlobal">Pr. Michael Brodeur</h4>
-            <p class="subtitle-a text-center">Sou o autor da Cultura do Avivamento: Preparando a Igreja para o Próximo Grande Despertar (publicado pela Regal). Este livro inclui um capítulo de idéias profundas de Bill Johnson, o líder da Igreja de Betel e dois capítulos de Banning Liebscher, diretor de cultura de Jesus, onde eu servi como diretor do projeto de cultura: uma estratégia de orientação de quarenta anos para levantar amanhã líderes. Além disso, dou aulas no Bethel School of Supernatural Ministry em Redding, Califórnia, e presto serviços de consultoria para várias igrejas e organizações em todo o mundo.</p>
+            <p class="subtitle-a text-center">Autor da Cultura do Avivamento: Preparando a Igreja para o Próximo Grande Despertar (publicado pela Regal). Este livro inclui um capítulo de idéias profundas de Bill Johnson, o líder da Igreja de Betel e dois capítulos de Banning Liebscher, diretor de cultura de Jesus, onde eu servi como diretor do projeto de cultura: uma estratégia de orientação de quarenta anos para levantar amanhã líderes. Além disso, dou aulas no Bethel School of Supernatural Ministry em Redding, Califórnia, e presto serviços de consultoria para várias igrejas e organizações em todo o mundo.</p>
           </div>
         </div>
         <!--/
