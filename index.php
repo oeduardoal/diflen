@@ -147,7 +147,7 @@
             <h1 class="display-4 fontGlobal">Movimento Diflen</h1>
             <p class="lead"><strong>Nossa missão é</strong> inspirar e levantar jovens para que sejam verdadeiros discípulos de Cristo, e que, de acordo com seu potencial, talento e chamado, sejam influentes em todas as esferas da sociedade e em todas as nações. Portanto ide, fazei discípulos de todas as nações, batizando-os em nome do Pai, e do Filho, e do Espírito Santo; Ensinando-os a guardar todas as coisas que eu vos tenho mandado; e eis que eu estou convosco todos os dias, até a consumação dos séculos. Amém. Mateus 28:19,20.
               <br />
-              <br /><strong>DIFLEN - Discipulando e formando líderes em nações</strong></p>
+              <br /><strong>DIFLEN - Discipulando e Formando Líderes em Nações</strong></p>
             <br />
             <br />
             <h4 class="display-6 fontGlobal">Diflen Global</h4>
@@ -157,7 +157,7 @@
           </div>
           <!-- 16:9 aspect ratio -->
           <div class="embed-responsive embed-responsive-16by9 space-bottom">
-            <iframe src="https://www.youtube.com/embed/w9I-fKVKJ3Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/Vf_8K8KEbGQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -213,7 +213,7 @@
           <div class="box">
             <img src="<?php echo assetsurl ?>/img/michael.png"></img>
             <h4 class="display-7 text-center fontGlobal">Pr. Michael Brodeur</h4>
-            <p class="subtitle-a text-center">Autor da Cultura do Avivamento: Preparando a Igreja para o Próximo Grande Despertar (publicado pela Regal). Este livro inclui um capítulo de idéias profundas de Bill Johnson, o líder da Igreja de Betel e dois capítulos de Banning Liebscher, diretor de cultura de Jesus, onde eu servi como diretor do projeto de cultura: uma estratégia de orientação de quarenta anos para levantar amanhã líderes. Além disso, dou aulas no Bethel School of Supernatural Ministry em Redding, Califórnia, e presto serviços de consultoria para várias igrejas e organizações em todo o mundo.</p>
+            <p class="subtitle-a text-center">Autor da Cultura do Avivamento: Preparando a Igreja para o Próximo Grande Despertar (publicado pela Regal). Este livro inclui um capítulo de idéias profundas de Bill Johnson, o líder da Bethel Church e dois capítulos de Banning Liebscher, diretor do Jesus Culture, onde ele serviu como diretor do projeto de cultura: uma estratégia de orientação de quarenta anos para levantar futuros líderes. Além disso, dá aulas no Bethel School of Supernatural Ministry em Redding, Califórnia, e presta serviços de consultoria para várias igrejas e organizações em todo o mundo, incluindo a Monte Sião.</p>
           </div>
         </div>
         <!--/
