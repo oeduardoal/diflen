@@ -81,7 +81,7 @@
         <div class="container">
           <h4 class="display-6 color-d space-top fontGlobal">Conferência Diflen</h4>
           <h1 class="intro-title mb-4 fontGlobal">WE ARE GLOBAL</h1>
-          <p class="intro-subtitle space-bottom"><span class="text-slider-items">Discipulando,e Formando,Líderes,Em nações,Somos todos Diflen</span><strong class="text-slider"></strong></p>
+          <p class="intro-subtitle space-bottom"><span class="text-slider-items">Discipulando,e Formando,Líderes,Em Nações,Somos todos Diflen</span><strong class="text-slider"></strong></p>
           <h2 class="mb-4 fontGlobal light subtitleGlobal">15 e 16 de Novembro 2019</h2>
           <a class="nav-link js-scroll" href="#subscriber">
             <button class="button button-a button-big button-rouded">Faça sua inscrição</button>
