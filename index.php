@@ -181,19 +181,19 @@
       <div class="row">
         <div class="col-md-6">
           <div class="box">
-            <img src="<?php echo assetsurl ?>/img/BrunaoMorada.png"></img>
-            <h4 class="display-7 text-center fontGlobal">Brunão Morada</h4>
+            <img src="<?php echo assetsurl ?>/img/isaias.png"></img>
+            <h4 class="display-7 text-center fontGlobal">Pr. Isaías Huber</h4>
             <p class="subtitle-a text-center">
-              Brunão é casado, líder do Ministério Morada e pastor de Adoração na Poiema Church em Taubaté. Desde adolescente, sempre foi apaixonada pela música e jovens. Hoje, ele viaja por vários lugares com o anseio de "gritar nos telhados o que Deus sussurra em seus ouvidos".
+              Líder global do movimento DIFLEN e pastor de jovens da Paz Church, Isaías Huber é uma voz que tem inspirado milhares de jovens nas nações a viverem uma vida radical por Jesus. <br /> Mestre em Comunicação Intercultural pela Columbia International University, bacharel em Ministério Intercultural pelo Life Pacific College, Isaías exerce seu ministério ao lado de sua esposa Nicole e seus filhos Noah, Bella e Keahi. Autor do livro "All In".
             </p>
           </div>
         </div>
         <div class="col-md-6">
           <div class="box">
-            <img src="<?php echo assetsurl ?>/img/isaias.png"></img>
-            <h4 class="display-7 text-center fontGlobal">Pr. Isaías Huber</h4>
+            <img src="<?php echo assetsurl ?>/img/BrunaoMorada.png"></img>
+            <h4 class="display-7 text-center fontGlobal">Brunão Morada</h4>
             <p class="subtitle-a text-center">
-              Líder global do movimento DIFLEN e pastor de jovens da Paz Church, Isaías Huber é uma voz que tem inspirado milhares de jovens nas nações a viverem uma vida radical por Jesus. <br /> Mestre em Comunicação Intercultural pela Columbia International University, bacharel em Ministério Intercultural pelo Life Pacific College, Isaías exerce seu ministério ao lado de sua esposa Nicole e seus filhos Noah, Bella e Keahi. Autor do livro "All In".
+              Brunão é casado, líder do Ministério Morada e pastor de Adoração na Poiema Church em Taubaté. Desde adolescente, sempre foi apaixonada pela música e jovens. Hoje, ele viaja por vários lugares com o anseio de "gritar nos telhados o que Deus sussurra em seus ouvidos".
             </p>
           </div>
         </div>
