@@ -151,7 +151,7 @@
             <br />
             <br />
             <h4 class="display-6 fontGlobal">Diflen Global</h4>
-            <p class="lead">Nossa conferência reúne jovens de todo Brasil e de todo mundo para trocar experiências, crescer espiritualmente, estabelecer relacionamentos, com muitas palavras que edificam, workshops e programações incríveis com vários convidados nacionais e internacionais.
+            <p class="lead">Nossa conferência reúne jovens de todo o mundo para trocar experiências, crescer espiritualmente, estabelecer relacionamentos, com muitas palavras que edificam, workshops e programações incríveis com vários convidados nacionais e internacionais.
               <br />
               <br /><strong>Teaser We are Global</strong></p>
           </div>
@@ -179,6 +179,15 @@
         </div>
       </div>
       <div class="row">
+        <div class="col-md-6">
+          <div class="box">
+            <img src="<?php echo assetsurl ?>/img/BrunaoMorada.png"></img>
+            <h4 class="display-7 text-center fontGlobal">Brunão Morada</h4>
+            <p class="subtitle-a text-center">
+              Brunão é casado, líder do Ministério Morada e pastor de Adoração na Poiema Church em Taubaté. Desde adolescente, sempre foi apaixonada pela música e jovens. Hoje, ele viaja por vários lugares com o anseio de "gritar nos telhados o que Deus sussurra em seus ouvidos".
+            </p>
+          </div>
+        </div>
         <div class="col-md-6">
           <div class="box">
             <img src="<?php echo assetsurl ?>/img/isaias.png"></img>
