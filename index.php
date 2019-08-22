@@ -9,9 +9,6 @@
   <meta content="" name="keywords">
   <meta content="" name="Diflen Global">
   <!-- Favicons -->
-  <link href="<?php echo assetsurl ?>/img/logo.png" rel="icon">
-  <link href="<?php echo assetsurl ?>/img/logo.png" rel="apple-touch-icon">
-
   <!-- Bootstrap CSS File -->
   <link href="<?php echo assetsurl ?>/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
