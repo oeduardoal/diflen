@@ -314,18 +314,20 @@
       <div class="row" id="programacao_content">
         <div class="col-md-12">
           <div class="box">
-          SEXTA
+          <h4 class="display-6 fontGlobal">SEXTA</h4>
+          <p class="lead">
+            11:00 - Abertura dos portões externos / Novas inscrições / credenciamento
+            <br/><br/>
+            SESSÃO 1<br/>
+            13:00 - 16:00<br/>
+            16:00 - 17:30 - WORKSHOPS<br/>
+            17:30 - 19:00 - INTERVALO JANTA<br/>
+            <br/><br/>
+            SESSÃO 2<br/>
+            19:00 - 22:00<br/>
+            22:00 - ENCERRAMENTO<br/>
+          </p>
 
-          11:00 - Abertura dos portões externos / Novas inscrições / credenciamento
-
-          SESSÃO 1
-          13:00 - 16:00
-          16:00 - 17:30 - WORKSHOPS
-          17:30 - 19:00 - INTERVALO JANTA
-
-          SESSÃO 2
-          19:00 - 22:00
-          22:00 - ENCERRAMENTO
           </div>
         </div>
         <div class="col-md-12">
