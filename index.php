@@ -166,6 +166,7 @@
   <!--/ Section Preletores Init /-->
   <section id="preletores" class="services-mf route">
     <div class="container">
+
       <div class="row">
         <div class="col-sm-12">
           <div class="title-box text-center">
@@ -175,6 +176,7 @@
           </div>
         </div>
       </div>
+
       <div class="row">
         <div class="col-md-6">
           <div class="box">
@@ -232,6 +234,7 @@
                 </div>
                 /-->
       </div>
+
     </div>
   </section>
   <!--/ Section Preletores End /-->
@@ -295,6 +298,60 @@
     </div>
   </section>
   <!--/ Section Banda End /-->
+
+  <!--/ Section Programação Init /-->
+  <section id="programacao" class="portfolio-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a fontGlobal">Confira a nossa Programação</h3>
+            <p class="subtitle-a">Fique atento aos horários</p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="programacao_content">
+        <div class="col-md-12">
+          <div class="box">
+          SEXTA
+
+          11:00 - Abertura dos portões externos / Novas inscrições / credenciamento
+
+          SESSÃO 1
+          13:00 - 16:00
+          16:00 - 17:30 - WORKSHOPS
+          17:30 - 19:00 - INTERVALO JANTA
+
+          SESSÃO 2
+          19:00 - 22:00
+          22:00 - ENCERRAMENTO
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="box">
+            SABADO
+            8:00 - 9:00 - SOAKING ROOM / CREDENCIAMENTO
+
+            SESSÃO 3
+            9:00 - 12:00
+            12:00 - Sala Profética – SoakingRoom - WORKSHOP
+            12:00 - 14:00 INTERVALO ALMOÇO
+            14:00 - 15:30 WORKSHOP
+
+            SESSÃO 4
+            15:40 - 18:00
+            18:00 - 19:30 INTERVALO JANTA
+
+            SESSÃO 5
+            19:30 - 22:00
+            22h:00 ENCERRAMENTO
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Section Programação End /-->
 
   <?php
   $registrations = array(
