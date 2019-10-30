@@ -333,6 +333,7 @@
         <br/>
         <div class="col-md-12">
           <div class="box">
+            <br/>
             <h4 class="display-6 fontGlobal">SABADO</h4>
             <p class="lead">
               8:00 - 9:00 - SOAKING ROOM / CREDENCIAMENTO<br/>
