@@ -59,6 +59,9 @@
             <a class="nav-link js-scroll" href="#bandas">Bandas</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll" href="#programacao">Programação</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll" href="#subscriber">Inscrição</a>
           </li>
           <li class="nav-item">
