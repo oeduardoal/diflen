@@ -322,7 +322,7 @@
             13:00 - 16:00<br/>
             16:00 - 17:30 - WORKSHOPS<br/>
             17:30 - 19:00 - INTERVALO JANTA<br/>
-            <br/><br/>
+            <br/>
             SESSÃO 2<br/>
             19:00 - 22:00<br/>
             22:00 - ENCERRAMENTO<br/>
@@ -332,22 +332,25 @@
         </div>
         <div class="col-md-12">
           <div class="box">
-            SABADO
-            8:00 - 9:00 - SOAKING ROOM / CREDENCIAMENTO
+            <h4 class="display-6 fontGlobal">SABADO</h4>
+            <p class="lead">
+              8:00 - 9:00 - SOAKING ROOM / CREDENCIAMENTO<br/>
+              <br/>
+              SESSÃO 3<br/>
+              9:00 - 12:00<br/>
+              12:00 - Sala Profética – SoakingRoom - WORKSHOP<br/>
+              12:00 - 14:00 INTERVALO ALMOÇO<br/>
+              14:00 - 15:30 WORKSHOP<br/>
+              <br/>
+              SESSÃO 4<br/>
+              15:40 - 18:00<br/>
+              18:00 - 19:30 INTERVALO JANTA<br/>
+              <br/>
+              SESSÃO 5<br/>
+              19:30 - 22:00<br/>
+              22h:00 ENCERRAMENTO<br/>
+            </p>
 
-            SESSÃO 3
-            9:00 - 12:00
-            12:00 - Sala Profética – SoakingRoom - WORKSHOP
-            12:00 - 14:00 INTERVALO ALMOÇO
-            14:00 - 15:30 WORKSHOP
-
-            SESSÃO 4
-            15:40 - 18:00
-            18:00 - 19:30 INTERVALO JANTA
-
-            SESSÃO 5
-            19:30 - 22:00
-            22h:00 ENCERRAMENTO
           </div>
         </div>
       </div>
