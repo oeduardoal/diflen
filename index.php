@@ -402,7 +402,7 @@
       "description" => "Vagas Limitadas!",
       "price" => "149,00",
       "from" => "04/09",
-      "to" => "04/11",
+      "to" => "13/11",
       "link" => "https://www.e-inscricao.com/diflen/diflen-global/"
     ),
   )
