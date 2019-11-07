@@ -343,7 +343,7 @@
               <br/>
               SESSÃO 3<br/>
               9:00 - 12:00<br/>
-              12:00 - Sala Profética – SoakingRoom - WORKSHOP<br/>
+              12:00 - Sala Profética – SoakingRoom<br/>
               12:00 - 14:00 INTERVALO ALMOÇO<br/>
               14:00 - 15:30 WORKSHOP<br/>
               <br/>
