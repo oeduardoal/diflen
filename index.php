@@ -324,8 +324,7 @@
             SESSÃO 1<br/>
             13:00 - 16:00<br/>
             16:00 - 17:30 - WORKSHOPS<br/>
-            17:30 - 19:00 - INTERVALO JANTA - Soaking Room - Sala Profética
-            <br/>
+            17:30 - 19:00 - Intervalo Janta – Soaking Room - Sala Profética <br/>
             <br/>
             SESSÃO 2<br/>
             19:00 - 22:00<br/>
@@ -344,13 +343,12 @@
               <br/>
               SESSÃO 3<br/>
               9:00 - 12:00<br/>
-              12:00 - Sala Profética – SoakingRoom<br/>
-              12:00 - 14:00 INTERVALO ALMOÇO – Soaking Room - Sala Profética<br/>
+              12:00 - 14:00 Intervalo Almoço – Soaking Room - Sala Profética<br/>
               14:00 - 15:30 WORKSHOP<br/>
               <br/>
               SESSÃO 4<br/>
               15:40 - 18:00<br/>
-              18:00 - 19:30 INTERVALO JANTA – Soaking Room - Sala Profética<br/>
+              18:00 - 19:30 Intervalo Janta – Soaking Room - Sala Profética<br/>
               <br/>
               SESSÃO 5<br/>
               19:30 - 22:00<br/>
